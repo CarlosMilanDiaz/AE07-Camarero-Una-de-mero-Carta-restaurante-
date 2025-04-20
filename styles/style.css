@@ -1,0 +1,252 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fff8e1;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #8b0000;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #b22222;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 3em;
+    margin: 20px 0;
+    color: #b22222;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu {
+    width: 80%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #b22222;
+}
+
+.plato {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ccc;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.plato:last-child {
+    border-bottom: none;
+}
+
+.nombre {
+    font-size: 2em;
+    font-weight: bold;
+    color: #8b0000;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.precio {
+    font-size: 1.8em;
+    color: #b22222;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.descripcion {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.calorias {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.caracteristicas {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #2c3e50;
+}
+
+.caracteristicas li {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.caracteristicas .categoria {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 5px 8px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.caracteristicas .vegetal {
+    background: #27ae60;
+}
+
+.caracteristicas .sin-gluten {
+    background: #f39c12;
+}
+
+.caracteristicas .carne {
+    background: #c0392b;
+}
+
+.caracteristicas .pescado {
+    background: #2980b9;
+}
+
+.caracteristicas .pollo {
+    background: #d35400;
+}
+
+.caracteristicas .picante {
+    background: #e74c3c;
+}
+
+.caracteristicas .lacteo {
+    background: #8e44ad;
+}
+
+.caracteristicas .sin-calorias {
+    background: #3498db;
+}
+
+.caracteristicas .con-azucar {
+    background: #e67e22;
+}
+
+h2.categoria-titulo {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #8b0000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #8b0000;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
+header h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 2.5em;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.contacto {
+    width: 80%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #b22222;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacto label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.contacto input, .contacto textarea {
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+contacto button {
+    font-size: 1.2em;
+    padding: 10px;
+    background: #8b0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contacto button:hover {
+    background: #b22222;
+}
+
+.contacto .info {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.contacto .info h2 {
+    font-size: 1.5em;
+    color: #8b0000;
+    margin-bottom: 10px;
+}
+
+.contacto .info p {
+    margin: 5px 0;
+}
+
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+.total-precio {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f8f8;
+    border: 2px solid #b22222;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #8b0000;
+}

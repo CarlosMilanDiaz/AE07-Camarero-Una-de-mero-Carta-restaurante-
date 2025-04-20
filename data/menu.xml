@@ -1,0 +1,125 @@
+<menu>
+    <!-- Primeros Platos -->
+    <plato tipo="primer plato">
+        <nombre>Sopa de Verduras</nombre>
+        <precio>5.00</precio> <!-- Adjusted price -->
+        <descripcion>Sopa caliente con una mezcla de verduras frescas.</descripcion>
+        <calorias>150</calorias>
+        <caracteristicas>
+            <categoria>vegetal</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="primer plato">
+        <nombre>Gazpacho Andaluz</nombre>
+        <precio>4.50</precio>
+        <descripcion>Sopa fría de tomate, pepino y pimientos, típica de Andalucía.</descripcion>
+        <calorias>120</calorias>
+        <caracteristicas>
+            <categoria>vegetal</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="primer plato">
+        <nombre>Ensalada Mixta</nombre>
+        <precio>6.00</precio>
+        <descripcion>Ensalada con lechuga, tomate, cebolla, huevo y atún.</descripcion>
+        <calorias>200</calorias>
+        <caracteristicas>
+            <categoria>vegetal</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <!-- Segundos Platos -->
+    <plato tipo="segundo plato">
+        <nombre>Filete de Ternera</nombre>
+        <precio>10.00</precio> <!-- Adjusted price -->
+        <descripcion>Filete de ternera a la parrilla con guarnición de patatas.</descripcion>
+        <calorias>600</calorias>
+        <caracteristicas>
+            <categoria>carne</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="segundo plato">
+        <nombre>Merluza a la Plancha</nombre>
+        <precio>12.00</precio>
+        <descripcion>Merluza fresca a la plancha con verduras al vapor.</descripcion>
+        <calorias>400</calorias>
+        <caracteristicas>
+            <categoria>pescado</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="segundo plato">
+        <nombre>Pollo al Curry</nombre>
+        <precio>10.50</precio>
+        <descripcion>Pollo cocinado con una mezcla de especias al curry.</descripcion>
+        <calorias>500</calorias>
+        <caracteristicas>
+            <categoria>pollo</categoria>
+            <categoria>picante</categoria>
+        </caracteristicas>
+    </plato>
+
+    <!-- Postres -->
+    <plato tipo="postre">
+        <nombre>Flan de Huevo</nombre>
+        <precio>3.00</precio> <!-- Adjusted price -->
+        <descripcion>Flan casero con caramelo.</descripcion>
+        <calorias>250</calorias>
+        <caracteristicas>
+            <categoria>lacteo</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="postre">
+        <nombre>Helado de Vainilla</nombre>
+        <precio>4.00</precio>
+        <descripcion>Helado cremoso de vainilla con sirope de chocolate.</descripcion>
+        <calorias>300</calorias>
+        <caracteristicas>
+            <categoria>lacteo</categoria>
+            <categoria>vegetal</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="postre">
+        <nombre>Fruta de Temporada</nombre>
+        <precio>3.00</precio>
+        <descripcion>Selección de frutas frescas de temporada.</descripcion>
+        <calorias>100</calorias>
+        <caracteristicas>
+            <categoria>vegetal</categoria>
+            <categoria>sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <!-- Bebidas -->
+    <plato tipo="bebida">
+        <nombre>Agua Mineral</nombre>
+        <precio>3.00</precio> <!-- Adjusted price -->
+        <descripcion>Agua mineral natural, refrescante y saludable.</descripcion>
+        <calorias>0</calorias>
+        <caracteristicas>
+            <categoria>sin calorias</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="bebida">
+        <nombre>Refresco</nombre>
+        <precio>2.50</precio>
+        <descripcion>Refresco con gas de cola, naranja o limón.</descripcion>
+        <calorias>150</calorias>
+        <caracteristicas>
+            <categoria>con azucar</categoria>
+        </caracteristicas>
+    </plato>
+    <plato tipo="bebida">
+        <nombre>Café</nombre>
+        <precio>1.50</precio>
+        <descripcion>Café espresso recién hecho.</descripcion>
+        <calorias>5</calorias>
+        <caracteristicas>
+            <categoria>sin calorias</categoria>
+        </caracteristicas>
+    </plato>
+</menu>
