@@ -12,7 +12,6 @@
         <nav>
             <ul>
                 <li><a href="/Carta_restaurante/index.php">Inicio</a></li>
-                <li><a href="/Carta_restaurante/menu_del_dia.php">Menú del Día</a></li> <!-- Removed #menu-del-dia -->
                 <li><a href="/Carta_restaurante/contacto.php">Contacto</a></li>
             </ul>
         </nav>
